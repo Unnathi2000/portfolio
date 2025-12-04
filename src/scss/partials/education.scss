@@ -1,0 +1,110 @@
+#education {
+    background: #fff;
+}
+
+#education .section-title {
+    font-size: 30px; 
+    font-weight: 700; 
+    color: #333;
+    margin-bottom: -5px;
+}
+
+.education-list-container {
+    padding: 0px;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+
+    background: #f7f7f7;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.education-logo-container {
+    flex-shrink: 0;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.education-university-logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.education-content-stacked {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.education-university {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.education-years {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.education-degree {
+    font-size: 16px;
+    font-weight: 400;
+    color: #AE944F;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.education-gpa {
+    font-size: 15px;
+    color: #444;
+    margin: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .education-item {
+        padding: 20px 15px;
+    }
+
+    .education-logo-container {
+        width: 100%;
+        max-width: 200px;
+        height: 80px;
+    }
+
+    .education-content-stacked {
+        padding: 0 10px;
+    }
+
+    .education-university {
+        font-size: 18px;
+    }
+
+    .education-degree {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,11 @@
+@import '../src/scss/themes/theme-dark.scss';
+@import '../src/scss/themes/theme-light.scss';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+
+
+@import './scss/partials/global'; 
+@import './scss/partials/header';
+@import './scss/partials/education';
+@import './scss/partials/experience';
+@import './scss/partials/skills';
+@import './scss/partials/projects';

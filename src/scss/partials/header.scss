@@ -1,0 +1,265 @@
+header {
+    position: relative;
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #f4e7f5;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.merged-content-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.merge-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+.header-text-col {
+    padding-right: 60px;
+    text-align: left;
+}
+
+.header-intro-text {
+    padding-top: 20px;
+}
+
+.header-intro-text h1 {
+    font-size: 500%;
+    color: #353239;
+    font-weight: 700 !important;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.about-text-preview {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: justify;
+
+}
+
+.header-image-col {
+    text-align: center;
+}
+
+.profile-wrapper {
+    display: block;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.profile-image-large {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.tech-icons-overlay {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.anchor-point {
+    display: block;
+    height: 1px;
+    visibility: hidden;
+    position: relative;
+    top: -60px;
+}
+
+#nav-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 90px;
+    background: #222222;
+    line-height: 60px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#nav-wrap .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 21px !important;
+    text-transform: uppercase;
+    margin-left: 0;
+}
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#nav>li {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 22px;
+}
+
+#nav>li>a {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#nav>li>a:hover {
+    color: #AE944F !important;
+}
+
+#nav .react-switch {
+    height: 30px !important;
+    width: 60px !important;
+    position: static;
+    top: auto;
+    transform: none;
+}
+
+.react-switch>span>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.download-button {
+    background-color: #444;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 45px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+.social-links-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-left: -10px;
+}
+
+.social-links-container .social-icon {
+    padding: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-links-container .social-icon:first-child {
+    padding-left: 0;
+}
+
+.social-links-container a i {
+    font-size: 25px;
+    color: #444;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-links-container a:hover i {
+    color: #AE944F;
+    transform: translateY(-2px);
+}
+
+
+#nav-wrap .navbar-toggler {
+    display: none;      
+}
+
+#nav-wrap #nav {
+    display: flex;      
+}
+
+@media (max-width: 850px) {
+    #nav-wrap .navbar-toggler {
+        display: block;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 28px;
+        cursor: pointer;
+        z-index: 9999;
+        position: absolute; 
+        top: 50%; 
+        right: 40px; 
+        transform: translateY(-50%); 
+        width: 40px; 
+        height: 40px; 
+    }
+
+    #nav-wrap .container-fluid {
+        min-height: 90px;
+    }
+    
+    #nav-wrap #nav {
+        display: none;
+        flex-direction: column;
+        position: absolute; 
+        top: 100%; 
+        right: 0; 
+        width: 100%;
+        height: auto; 
+        background: #222222;
+        z-index: 9998; 
+        
+        margin-top: 0; 
+        padding: 10px 0;
+    }
+
+    #nav-wrap #nav.menu-is-open {
+        display: flex;
+    }
+
+    #nav-wrap #nav > li {
+        padding: 15px 20px;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    #nav-wrap #nav > li > a {
+        font-size: 20px;
+    }
+
+    .navbar-brand{
+        font-size: 16px !important;
+    }
+}

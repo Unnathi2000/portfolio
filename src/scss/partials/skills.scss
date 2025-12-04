@@ -1,0 +1,79 @@
+#skills {
+    background: #FFFFFF;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 5%;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.heading{
+    font-size: 30px; 
+    font-weight: 700; 
+    color: #000000;
+}
+
+.section-title {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+    text-align: center;
+}
+
+#skills h3 {
+    text-align: center !important;
+    padding-left: 0 !important;
+    color: #000000 !important;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.skills-tile {
+    width: 140px !important;
+    height: 140px !important;
+    background-color: trans !important;
+    // border: 1px solid #777 !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+    padding: 10px 10px 5px 10px;
+    margin: 5px 0 5px 0;
+}
+
+.skills-tile i {
+    font-size: 400% !important;
+    margin: 0;
+    color: #333 !important;
+}
+
+.skills-tile p {
+    color: #333 !important;
+    font-size: 30% !important;
+    margin-top: 5px !important;
+}
+
+.skill-icon {
+    font-size: 180%;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.skill-list-container .list-inline {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    padding-left: 0 !important;
+    margin-bottom: 0;
+}
+
+.skill-list-container .list-inline-item {
+    padding: 15px 15px !important;
+    margin: 0 !important;
+}

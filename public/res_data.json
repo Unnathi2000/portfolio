@@ -1,0 +1,92 @@
+{
+  "basic_info": {
+    "description_header": "",
+    "description": " A software developer with hands-on experience in full-stack development, backend engineering, and machine learning. I have delivered scalable software solutions, streamlined processes, and implemented production-ready applications. Skilled in problem solving, code optimization, version control, and cross-functional collaboration, I enjoy turning complex challenges into efficient, robust software. Continuously learning and exploring new technologies, I aim to create impactful solutions that make a difference.",
+    "section_name": {
+      "about": "About me",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects"
+    }
+  },
+  "experience": [
+    {
+      "company": "Intro to Database Systems and Processing",
+      "title": "Teaching Assistant",
+      "years": "January 2024 - Present",
+      "logo": "images/experience/csu_logo.png",
+      "description": "Facilitated course activities for Intro to Database Systems by assessing and grading all student submissions, including practical lab assignments, SQL exercises, and quizzes, ensuring equitable and timely feedback. Provided specialized technical support during allocated TA hours, resolving student queries regarding development environment installations, assignment specifications, and grading discrepancies, which improved student throughput during practical sessions."
+    },
+    {
+      "company": "CSU Presidents Office",
+      "title": "Student Assistant",
+      "years": "August 2025 - Present",
+      "logo": "images/experience/csu_logo.png",
+      "description": "Provided administrative support, managing office tasks and ensuring smooth daily operations. Communicated professionally with visitors, staff, and external professionals, facilitating positive interactions and efficient workflow. Managed front desk operations, handled phone calls, emails, and mail distribution while maintaining an organized and efficient workspace."
+    },
+    {
+      "company": "Digital Associate Engineer, Sonata Software Limited",
+      "title": "Digital Associate Engineer",
+      "years": "September 2022 - January 2024",
+      "logo": "images/experience/sonata_logo.jpg",
+      "description": "Engineered and optimized backend modules using Spring MVC and SAP Hybris, refining product catalog APIs and booking workflows to enhance throughput and reduce latency by ensuring uninterrupted uptime. Optimized SQL queries and implemented intelligent server-side caching to decrease database load, accelerate data retrieval, and improve transaction response efficiency across high-volume sessions. Diagnosed and remediated production-critical incidents through root cause analysis, deploying strategic hotfixes that fortified platform stability and sustained 99% service availability under stringent SLAs. Orchestrated CI/CD automation using Jenkins and Git, streamlining build validation and deployment workflows thereby reducing post-release defects and shortening release cycles by 15%. Collaborated within Agile/Scrum frameworks, partnering with cross-functional teams to deliver scalable, production-ready solutions aligned with business goals."
+    },
+    {
+      "company": "Bharat Electronics Limited",
+      "title": "Intern",
+      "years": "September 2021 - October 2021",
+      "logo": "images/experience/bel_logo.webp",
+      "description": "Engineered a real-time UDP packet capture tool in Java/JavaFX to intercept, parse, and visualize live datagrams, including sender IP, port, and packet length, enabling real-time network diagnostics and reducing manual verification effort. Implemented an intuitive GUI with start/stop controls, logging, and HEX/ASCII views, streamlining packet analysis and supporting accurate offline traceability. Optimized concurrent UDP stream handling using asynchronous threads, validating multi-client data flow and improving reliability of internal monitoring processes."
+    }
+  ],
+ 
+  "education": [
+  {
+    "university": "Cleveland State University, Cleveland, OH",
+    "degree": "Master of Science, Computer Science",
+    "years": "January 2024 - December 2025",
+    "gpa": "3.89/4",
+    "logo": "images/education/csu_logo.png"
+  },
+  {
+    "university": "Sri Venkateshwara College of Engineering, Bangalore",
+    "degree": "Bachelor of Engineering, Computer Science",
+    "years": "August 2018 - July 2022",
+    "gpa": "8.56/10",
+    "logo": "images/education/svce_logo.jpg"
+  }
+],
+  "projects": [
+    {
+      "title": "Willowstay: Full-Stack Rental Platform",
+      "description": "Architected a full-stack rental platform based on the MVC paradigm utilizing MERN stack, establishing a scalable foundation for future feature integration. Designed and implemented a secure, end-to-end user experience, including JWT-based authentication, a dynamic booking system, and Cloudinary-managed cloud image storage, enhancing data integrity. Integrated the Mapbox API for interactive geospatial querying and property visualization, providing users with accurate, visual location data and improving property engagement by over 25% (simulated metric). Standardized system reliability through comprehensive error handling and server-side input validation; successfully deployed the production-grade application on Render to ensure 99% uptime and responsiveness. ",
+      "images": [
+        "images/project/willowstay1.jpg",
+        "images/project/willowstay.avif"
+      ],
+      "url": "https://willowstay.onrender.com/listings "
+     
+    },
+    {
+      "title": "TalkBridge: Video Conferencing Platform",
+      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "images": [
+        "images/project/talkbridge1.png",
+        "images/project/talkbridge2.jpg",
+        "images/project/talkbridge.webp"
+      ],
+      "url": ""
+    },
+    {
+      "title": "Network Protocol Analysis using Machine Learning ",
+      "description": "Engineered an end-to-end network anomaly detection system using K-Nearest Neighbors and Naive Bayes classifiers, applying advanced feature encoding, normalization, and preprocessing to achieve up to 92% classification accuracy on real network traffic datasets. Designed and deployed an interactive Tkinter-based GUI to streamline model training, prediction, and visualization workflows, enabling real-time traffic classification and enhancing system interpretability. Validated and optimized model performance through confusion matrix analysis, precision–recall evaluation, and comparative visualization, reducing false positives by ~30% and improving overall detection efficiency.",
+      "images": [
+        "images/project/ml1.webp",
+        "images/project/ml2.jpg",
+        
+        "images/project/ml.webp"
+      ],
+      "url": ""
+    }
+  ]
+}

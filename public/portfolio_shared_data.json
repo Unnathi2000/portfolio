@@ -1,0 +1,77 @@
+{
+    "basic_info": {
+      "name": "Hello, <br> I’m Unnathi Narendra",
+      "cr":"Unnathi Gowdanahalli Narendra",
+      "resume_url": "/files/Unnathi.pdf",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/Unnathi2000",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/unnathi-narendra-88852a383/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "gmail",
+          "url": "mailto:unnathi.g.n@gmail.com",
+          "class": "fas fa-envelope"
+        }
+      ],
+      "image": ""
+    },
+    "skills": {
+  "sections": [  
+    {
+      "name": "Languages",
+      "icons": [
+        { "name": "Java", "class": "devicon-java-plain" },
+        { "name": "Python", "class": "devicon-python-plain" },
+        { "name": "JavaScript", "class": "devicon-javascript-plain" },
+        { "name": "TypeScript", "class": "devicon-typescript-plain" }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "icons": [
+        { "name": "HTML", "class": "devicon-html5-plain" },
+        { "name": "CSS", "class": "devicon-css3-plain" },
+        { "name": "Bootstrap", "class": "devicon-bootstrap-plain" },
+        { "name": "Tailwind CSS", "class": "devicon-tailwindcss-original" },
+        { "name": "React.js", "class": "devicon-react-original" }
+      ]
+    },
+    {
+      "name": "Backend & Frameworks",
+      "icons": [
+        { "name": "Node.js", "class": "devicon-nodejs-line" },
+        { "name": "Express.js", "class": "devicon-express-original" },
+        { "name": "Spring", "class": "devicon-spring-original" },
+        { "name": "SAP Hybris", "class": "fas fa-server" } 
+      ]
+    },
+    {
+      "name": "Databases",
+      "icons": [
+        { "name": "MySQL", "class": "devicon-mysql-plain" },
+        { "name": "MongoDB", "class": "devicon-mongodb-plain" },
+        { "name": "PostgreSQL", "class": "devicon-postgresql-plain" } 
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "icons": [
+        { "name": "Git", "class": "devicon-git-plain" },
+        { "name": "GitHub", "class": "devicon-github-original" },
+        { "name": "Jenkins", "class": "devicon-jenkins-line" },
+        { "name": "Docker", "class": "devicon-docker-plain" },
+        { "name": "Kubernetes", "class": "devicon-kubernetes-plain" },
+        { "name": "Postman", "class": "devicon-postman-plain" }
+      ]
+    }
+        
+      ]
+    }
+  }

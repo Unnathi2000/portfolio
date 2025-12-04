@@ -1,0 +1,114 @@
+
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container {
+    height: 50px;
+}
+
+.title-styles {
+    font-family: 'Raleway', sans-serif;
+    font-size: 250%;
+}
+
+.header-icon {
+    height: 150px;
+    width: 150px;
+}
+
+.language-icon {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.project-date {
+    display: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 15px 2px 15px;
+    position: relative;
+    z-index: -500;
+    border-top: 5px solid #696969;
+    border-radius: 0 0 5px 5px;
+    background-color: #696969;
+    color: white;
+}
+
+.link-href {
+    color: black;
+}
+
+.wave {
+    font-size: 160%;
+}
+
+.font-trebuchet {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-badge {
+    font-size: 13px !important;
+    text-align: left !important;
+    padding: 5px 8px 5px 8px !important;
+    vertical-align: baseline;
+    background-color: #f4e7f5 !important;
+    color: white;
+    font-weight: lighter !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about {
+    background: #fff;
+    overflow: hidden;
+}
+
+#about h1 {
+    padding-top: 5%;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background: #1F1F1F;
+    min-height: 100px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+footer a,
+footer a:visited {
+    color: #fff;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #fff;
+}
+
+.social-links {
+    margin-top: 50px;
+    font-size: 22px;
+}
